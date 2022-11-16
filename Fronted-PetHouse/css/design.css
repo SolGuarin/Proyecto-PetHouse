@@ -1,0 +1,290 @@
+/* CSS Document */
+:root {
+/* Colors: */
+	--gris: #0A0A0A;
+	--verde-2: #C7D93D;
+	--verde-1: #EFF299;
+	--verde-4: #01401C;
+	--crema: #F1F1E8;
+	--verde-3: #49731F;
+	--verde-5:#8dbe5c;
+	--verde-6: #63992e;
+	--negro: #000000;
+	--blanco: #FFFFFF;
+
+/* Font/text values */
+	--unnamed-font-family-rubik: Rubik;
+	--unnamed-font-family-reross-quadratic: Reross Quadratic;
+	--unnamed-font-style-normal: normal;
+	--unnamed-font-weight-normal: normal;
+	--unnamed-font-weight-bold: bold;
+	--unnamed-font-weight-medium: medium;
+	--unnamed-font-size-13: 13px;
+	--unnamed-font-size-15: 15px;
+	--unnamed-font-size-20: 20px;
+	--unnamed-font-size-28: 28px;
+	--unnamed-font-size-30: 30px;
+	--unnamed-font-size-35: 35px;
+	--unnamed-font-size-80: 80px;
+	--unnamed-character-spacing-0: 0px;
+	--unnamed-line-spacing-15: 15px;
+	--unnamed-line-spacing-18: 18px;
+	--unnamed-line-spacing-24: 24px;
+	--unnamed-line-spacing-33: 33px;
+	--unnamed-line-spacing-36: 36px;
+	--unnamed-line-spacing-42: 42px;
+	--unnamed-line-spacing-105: 105px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+	font-family: var(--unnamed-font-family-rubik);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-28);
+	line-height: var(--unnamed-line-spacing-33);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--color-ffffff);
+}
+.unnamed-character-style-2 {
+	font-family: var(--unnamed-font-family-rubik);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-bold);
+	font-size: var(--unnamed-font-size-35);
+	line-height: var(--unnamed-line-spacing-42);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--color-ffffff);
+}
+h1 {
+	text-align: center;
+	font-family: var(--unnamed-font-family-reross-quadratic);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-80);
+	line-height: var(--unnamed-line-spacing-105);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--crema);
+}
+h2 {
+	text-align: left;
+	font-family: var(--unnamed-font-family-rubik);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-bold);
+	font-size: var(--unnamed-font-size-20);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--verde-1);
+}
+h3{
+	font-family: var(--unnamed-font-family-rubik);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-medium);
+	font-size: var(--unnamed-font-size-13);
+	line-height: var(--unnamed-line-spacing-15);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--crema);
+}
+.page{
+	margin: 0;
+	padding: 0;
+}
+.menu-header{
+	display: block;
+	padding-left: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-family: var(--unnamed-font-family-rubik);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-15);
+    line-height: var(--unnamed-line-spacing-18);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--crema);
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+
+.margin-15{
+	margin: 15px;
+}
+body {
+	background-image: url('../images/image.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	min-height: 100%;
+   }
+
+.page-head{
+	background: #b7d6e3;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 80px;
+	padding-right: 80px;
+	height: 55px;
+
+}
+.alineacion{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu-uno{
+	display: block;
+	padding-left: 42px;
+}
+
+
+.menu-link-uno{
+    font-family: var(--unnamed-font-family-rubik);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-15);
+    line-height: var(--unnamed-line-spacing-18);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--crema);
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+
+.menu-link-dos{
+	font-family: var(--unnamed-font-family-rubik);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-15);
+    line-height: var(--unnamed-line-spacing-18);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--crema);
+    text-decoration: none;
+	text-align: center;
+	
+
+	
+}
+.foot{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	height: 55px;
+}
+
+.page-foot{
+	background-color: #61afdb;
+	display: flexbox;
+	position: absolute;
+	bottom: 0;
+	width: 100%; 
+}
+
+
+.menu-footer{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+}
+
+.alineacion{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+
+}
+
+.copy-right{
+	display: flex;
+	justify-content: center;
+}
+
+.fetured-image{
+	max-width: fullscreen 
+}
+
+.botones {
+	font-family: var(--unnamed-font-family-rubik);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-medium);
+	font-size: var(--unnamed-font-size-15);
+	line-height: var(--unnamed-line-spacing-18);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--negro);
+}
+
+.btn{
+	padding:5px 20px;
+	background-color: #61afdb;
+}
+
+.botones-medio {
+	font-family: var(--unnamed-font-family-rubik);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-30);
+	line-height: var(--unnamed-line-spacing-36);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--crema);
+}
+.btn-2{
+	width: 25%;
+	height: 80px;
+	padding-left: 35px;
+	padding-right: 35px;
+	background-color: #8dbe5c;
+	align-items: center;
+	}
+	
+.btn-3{
+		width: 25%;
+		height: 80px;
+		padding-left: 35px;
+		padding-right: 35px;
+		background-color: #63992e;
+		align-items: center;
+}
+.menu {
+	font-family: var(--unnamed-font-family-rubik);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-15);
+	line-height: var(--unnamed-line-spacing-18);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--crema);
+}
+
+.redes{
+
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+.quienes-somos{
+	font-weight: bold;
+	background-image: url('https://static.vecteezy.com/system/resources/previews/001/234/682/non_2x/green-tropical-leaves-seamless-pattern-vector.jpg');
+	
+}
+.registro{
+	filter:alpha(opacity=50);
+	background-image: url('https://thumbs.dreamstime.com/b/gato-y-perro-fondo-incons%C3%BAtil-30801217.jpg');
+}
+
+.inicio{
+	background-image: url('https://media.istockphoto.com/vectors/dog-seamless-pattern-theme-bone-paw-foot-print-for-use-as-wallpaper-vector-id1003319054?k=20&m=1003319054&s=170667a&w=0&h=1zFv_gkKfFGAIikJ6-SbEiN7yDwbHtG-6gU6-sme1lE=');
+}
+
+.titulo{
+	size: var(--unnamed-font-size-13);
+}
+
+.dropdown{
+	align-items: center;
+	justify-content: center;
+}

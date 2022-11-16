@@ -1,0 +1,109 @@
+:root {
+
+	/* Colors: */
+	--gris: #0A0A0A;
+	--verde-2: #C7D93D;
+	--verde-1: #EFF299;
+	--verde-4: #01401C;
+	--crema: #F1F1E8;
+	--verde-3: #49731F;
+	--negro: #000000;
+	--blanco: #FFFFFF;
+
+	/* Font/text values */
+	--unnamed-font-family-rubik: Rubik;
+	--unnamed-font-family-reross-quadratic: Reross Quadratic;
+	--unnamed-font-style-normal: normal;
+	--unnamed-font-weight-normal: normal;
+	--unnamed-font-weight-bold: bold;
+	--unnamed-font-weight-medium: medium;
+	--unnamed-font-size-13: 13px;
+	--unnamed-font-size-15: 15px;
+	--unnamed-font-size-20: 20px;
+	--unnamed-font-size-28: 28px;
+	--unnamed-font-size-30: 30px;
+	--unnamed-font-size-35: 35px;
+	--unnamed-font-size-80: 80px;
+	--unnamed-character-spacing-0: 0px;
+	--unnamed-line-spacing-15: 15px;
+	--unnamed-line-spacing-18: 18px;
+	--unnamed-line-spacing-24: 24px;
+	--unnamed-line-spacing-33: 33px;
+	--unnamed-line-spacing-36: 36px;
+	--unnamed-line-spacing-42: 42px;
+	--unnamed-line-spacing-105: 105px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-rubik);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-28);
+line-height: var(--unnamed-line-spacing-33);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--blanco);
+}
+.unnamed-character-style-2 {
+font-family: var(--unnamed-font-family-rubik);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-35);
+line-height: var(--unnamed-line-spacing-42);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--blanco);
+}
+.encabezado {
+font-family: var(--unnamed-font-family-reross-quadratic);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-80);
+line-height: var(--unnamed-line-spacing-105);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--crema);
+}
+.botones {
+font-family: var(--unnamed-font-family-rubik);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-15);
+line-height: var(--unnamed-line-spacing-18);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--blanco);
+}
+.botones-medio {
+font-family: var(--unnamed-font-family-rubik);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-30);
+line-height: var(--unnamed-line-spacing-36);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--crema);
+}
+.menu {
+font-family: var(--unnamed-font-family-rubik);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-15);
+line-height: var(--unnamed-line-spacing-18);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--crema);
+}
+.logo {
+font-family: var(--unnamed-font-family-rubik);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-20);
+line-height: var(--unnamed-line-spacing-24);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--verde-1);
+}
+.creador {
+font-family: var(--unnamed-font-family-rubik);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-13);
+line-height: var(--unnamed-line-spacing-15);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--crema);
+}
